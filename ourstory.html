@@ -18,7 +18,35 @@
 </ul>
   
   <h1> </h1>
-  
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <!--<div class="numbertext">1 / 3</div>-->
+  <img src="https://jdc20181.github.io/PinkFashions/Pics/Pink_Windbreaker.png" >
+  <div class="text">PINK™ Pink Windbreaker</div>
+</div>
+
+<div class="mySlides fade">
+  <!--<div class="numbertext">2 / 3</div>-->
+  <img src="https://jdc20181.github.io/PinkFashions/Pics/Black_Windbreaker.png" >
+  <div class="text">PINK™ Black Windbreaker</div>
+</div>
+
+<div class="mySlides fade">
+ <!-- <div class="numbertext">3 / 3</div>-->
+  <img src="https://jdc20181.github.io/PinkFashions/Pics/Yoga_BrandedPants.png" >
+  <div class="text">PINK™ Banded Yoga Pants</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
   <p>
   Here at pink, we take fashion seriously. Roblox is a online gaming platform, but that doesn't mean it has to be boring! Lighten it up a little bit with some Pink!
   <p>
@@ -29,7 +57,26 @@
  <p>  ©2017 Pink! Clothing on Roblox </p>
    <br>
   </footer>
- 
+ <script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
   
 
 </body>
