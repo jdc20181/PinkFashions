@@ -1,5 +1,5 @@
 .bodystyle{
-  background-color:	#ff60ad; /*#FFB6C1;*/
+  background-color:	 #FFB6C1; 
   color:#333;
   text-align:center;
     
@@ -9,6 +9,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #FFB6C1;
-    background-color:	#FFB6C1;
+    border: 1px solid #ff60ad;
+    background-color: #ff60ad;
 }
