@@ -12,3 +12,6 @@
     border: 1px solid #ff60ad;
     background-color: #ff60ad;
 }
+.mySlides {
+  display:none;
+}
