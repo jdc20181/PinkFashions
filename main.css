@@ -4,3 +4,11 @@
   text-align:center;
     
 }
+.bar{
+   text-align:center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #FFB6C1;
+    background-color:	#FFB6C1;
+}
