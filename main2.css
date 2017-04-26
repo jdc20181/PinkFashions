@@ -1,9 +1,10 @@
 footer{
     background-color: #05151d;
+  
 }
 
 body {
-    background: #555;
+    background: #ff60ad; /*#555;*/
 }
 
 .content {
@@ -12,6 +13,7 @@ body {
     background-color: #1A5276!important;
     padding: 10px;
     Text-align:center;
+    
 }
 ul {
     list-style-type: none;
@@ -34,11 +36,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #2B687C;
+    background-color: #ff60ad;
 }
 
 .active {
-    background-color: #1A5276;
+    background-color: #ff60fd;
 }
 @media only screen and (max-device-width : 320px)
    .content {
