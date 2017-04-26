@@ -64,6 +64,7 @@ body {font-family: Verdana,sans-serif;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
+    height:400px;
   /*position: relative;*/
   margin: auto;
 }
@@ -129,5 +130,5 @@ body {font-family: Verdana,sans-serif;}
     img {
     width: 100%;
     height: auto;
-        max-height:200px;
+        max-height:350px;
 }
