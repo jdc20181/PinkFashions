@@ -59,7 +59,7 @@ body {font-family: Verdana,sans-serif;}
 /* Slideshow container */
 .slideshow-container {
   width: 400px;
-   max-width:500px;
+  
     height:400px;
   /*position: relative;*/
   margin: auto;
