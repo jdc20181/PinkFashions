@@ -58,7 +58,8 @@ body {font-family: Verdana,sans-serif;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  width: 400px;
+   max-width:500px;
     height:400px;
   /*position: relative;*/
   margin: auto;
