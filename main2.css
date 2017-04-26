@@ -6,12 +6,7 @@ footer{
    left: 0;
    padding: 1rem;
 }
-
 body {
-    background: #ff60ad; /*#555;*/
-}
-
-.content {
     max-width: 500px;
     margin:auto;
     background-color:  #ff60ad; /*#1A5276!important;*/
