@@ -3,6 +3,7 @@
    width:100px;
        display: block;
     margin: auto;
+   background-color:#ff60ad;
 }
 .image { 
    position: relative; 
