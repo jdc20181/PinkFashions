@@ -10,11 +10,11 @@
     background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
 }
 
-.img_1-1{background-image:url('/Pics/Pink_Windbreaker.png');}
-.img_1-2{background-image:url('/Pics/Black_Windbreaker.png');}
-.img_1-3{background-image:url('/Pics/LightBlueJeans.png');}
-.img_1-4{background-image:url('/Pics/Sports_Undershirt.png');}
-.img_1-5{background-image:url('/Pics/Floral_Striped_Shorts.png');}
+.img_1-1{background-image:url('https://jdc20181.github.io/PinkFashions/Pics/Pink_Windbreaker.png');}
+.img_1-2{background-image:url('https://jdc20181.github.io/PinkFashions/Pics/Black_Windbreaker.png');}
+.img_1-3{background-image:url('https://jdc20181.github.io/PinkFashions/Pics/LightBlueJeans.png');}
+.img_1-4{background-image:url('https://jdc20181.github.io/PinkFashions/Pics/Sports_Undershirt.png');}
+.img_1-5{background-image:url('https://jdc20181.github.io/PinkFashions/Pics/Floral_Striped_Shorts.png');}
 
 .img_2-1{background-image:url('https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg');}
 .img_2-2{background-image:url('https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg');}
