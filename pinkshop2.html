@@ -3,7 +3,9 @@
       <link rel="stylesheet" type="text/css" href="shop2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-<body>
+<body onload="LoaderFunction()">
+	  <div id="loader"></div>
+  <div id="myDiv">
 	<img class="logo" src="https://jdc20181.github.io/PinkFashions/Favicon.ico">
   <ul>
  <li> <a  href="index.html">Home</a></li>
@@ -38,5 +40,16 @@
 
 	</li>
 </ul>
+	</div>
 </body>
+	    <script>
+var myVar;
+function LoaderFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </html>
