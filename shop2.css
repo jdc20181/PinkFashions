@@ -52,7 +52,7 @@ ul.rig li {
 	-webkit-box-sizing: border-box;
 }
 ul.rig.columns-4 li {
-	width: 22.5%; /* this value + 2.5 should = 25% */
+	width: 47.5%; 
 }
 @media (max-width: 480px) {
 	ul.grid-nav li {
