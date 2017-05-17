@@ -83,13 +83,13 @@ ul.rig.columns-4 li {
    /*width: 100%;  for IE 6 */
 }
 
-h2 { 
+/*h2 { 
    position: absolute; 
    top: 200px; 
    left: 0; 
    width: 100%; 
        color:white;
-}
+}*/
 footer{
     background-color:  #ff60ad;
      position: absolute;
@@ -104,6 +104,7 @@ body {
     background-color:  #ff60ad; /*#1A5276!important;*/
     padding: 10px;
     Text-align:center;
+	color:white;
     
 }
 ul {
