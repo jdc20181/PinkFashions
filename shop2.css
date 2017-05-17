@@ -23,8 +23,9 @@ ul.rig li img {
 }
 ul.rig li h3 {
 	margin: 0 0 5px;
-  color:white;
-  text-align:center;
+       color:white;
+      text-align:center;
+	font-size:14px;
 
 }
 ul.rig li p {
