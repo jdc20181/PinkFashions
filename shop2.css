@@ -43,7 +43,7 @@ ul.rig li {
 	display: inline-block;
 	padding: 10px;
 	margin: 0 0 2.5% 2.5%;
-	background: #ff60ad;
+	background: #FFA6C9;
 	border: 1px solid #ddd;
 	font-size: 16px;
 	font-size: 1rem;
@@ -91,7 +91,7 @@ ul.rig.columns-4 li {
        color:white;
 }*/
 footer{
-    background-color:  #ff60ad;
+    background-color:  #FFA6C9;
      position: absolute;
     right: 0;
    bottom: 0;
@@ -101,7 +101,7 @@ footer{
 body {
     max-width: 500px;
     margin:auto;
-    background-color:  #ff60ad; /*#1A5276!important;*/
+    background-color:  #FFA6C9; /*#1A5276!important;*/
     padding: 10px;
     Text-align:center;
 	color:white;
@@ -112,7 +112,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:  #ff60ad;
+    background-color:  #FFA6C9;
 }
 
 li {
@@ -128,7 +128,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #ff60ad;
+    background-color: #FFA6C9;
 }
 
 .active {
